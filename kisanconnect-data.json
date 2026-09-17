@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "KisanConnect Officer",
+      "phone": "9000000000",
+      "password_hash": "6f2cb9dd8f4b65e24e1c3f3fa5bc57982349237f11abceacd45bbcb74d621c25",
+      "role": "officer",
+      "language": "en",
+      "created_at": "2026-09-17T17:19:55.025Z"
+    },
+    {
+      "id": 2,
+      "name": "Raghu",
+      "phone": "8897641039",
+      "password_hash": "043436b60c4b990c88b9ed598b376d0b02d2a6f33f734031cc01410479753a17",
+      "role": "farmer",
+      "language": "hi",
+      "created_at": "2026-09-17T17:20:17.475Z"
+    }
+  ],
+  "centers": [
+    {
+      "id": 1,
+      "name": "Kurnool Procurement Hub",
+      "district": "Kurnool",
+      "crop": "Paddy",
+      "opening": "08:00",
+      "closing": "18:00",
+      "capacity": 180,
+      "queue": 43,
+      "status": "Open"
+    },
+    {
+      "id": 2,
+      "name": "Adoni Farmer Center",
+      "district": "Kurnool",
+      "crop": "Cotton",
+      "opening": "08:30",
+      "closing": "17:30",
+      "capacity": 140,
+      "queue": 27,
+      "status": "Open"
+    },
+    {
+      "id": 3,
+      "name": "Nandyal Procurement Center",
+      "district": "Nandyal",
+      "crop": "Maize",
+      "opening": "09:00",
+      "closing": "18:00",
+      "capacity": 160,
+      "queue": 19,
+      "status": "Open"
+    },
+    {
+      "id": 4,
+      "name": "Dhone Agri Hub",
+      "district": "Kurnool",
+      "crop": "Groundnut",
+      "opening": "08:00",
+      "closing": "17:00",
+      "capacity": 110,
+      "queue": 12,
+      "status": "Open"
+    },
+    {
+      "id": 5,
+      "name": "Pattikonda Agri Center",
+      "district": "Kurnool",
+      "crop": "Paddy",
+      "opening": "08:30",
+      "closing": "17:00",
+      "capacity": 120,
+      "queue": 8,
+      "status": "Open"
+    }
+  ],
+  "tokens": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "center_id": 1,
+      "token_no": "KC-65669626",
+      "crop": "Red Gram",
+      "quantity": 30,
+      "status": "Waiting",
+      "created_at": "2026-09-17T17:21:09.626Z"
+    }
+  ],
+  "prices": [
+    {
+      "id": 1,
+      "crop": "Paddy",
+      "market": "Kurnool APMC",
+      "price": 2360,
+      "unit": "₹/quintal",
+      "change": 1.8,
+      "updated_at": "2026-09-17T17:19:55.021Z"
+    },
+    {
+      "id": 2,
+      "crop": "Cotton",
+      "market": "Adoni Market",
+      "price": 7120,
+      "unit": "₹/quintal",
+      "change": -0.7,
+      "updated_at": "2026-09-17T17:19:55.022Z"
+    },
+    {
+      "id": 3,
+      "crop": "Maize",
+      "market": "Nandyal Market",
+      "price": 2240,
+      "unit": "₹/quintal",
+      "change": 2.4,
+      "updated_at": "2026-09-17T17:19:55.022Z"
+    },
+    {
+      "id": 4,
+      "crop": "Groundnut",
+      "market": "Kurnool APMC",
+      "price": 6280,
+      "unit": "₹/quintal",
+      "change": 1.1,
+      "updated_at": "2026-09-17T17:19:55.022Z"
+    },
+    {
+      "id": 5,
+      "crop": "Red Gram",
+      "market": "Nandyal Market",
+      "price": 6840,
+      "unit": "₹/quintal",
+      "change": -1.2,
+      "updated_at": "2026-09-17T17:19:55.022Z"
+    },
+    {
+      "id": 6,
+      "crop": "Sunflower",
+      "market": "Kurnool APMC",
+      "price": 5900,
+      "unit": "₹/quintal",
+      "change": 0.6,
+      "updated_at": "2026-09-17T17:19:55.022Z"
+    }
+  ],
+  "posts": [],
+  "notifications": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "title": "Token created",
+      "message": "KC-65669626 is active at Kurnool Procurement Hub.",
+      "created_at": "2026-09-17T17:21:09.626Z",
+      "read": false
+    }
+  ]
+}
